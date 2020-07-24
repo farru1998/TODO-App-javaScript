@@ -1,0 +1,165 @@
+html,
+body {
+  background-image: url("apple-code-coding-computer-574069.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.wrapper {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#area {
+  padding: 0px;
+}
+#area #todo-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+#area li {
+  text-decoration: none;
+  list-style: none;
+}
+#item-list {
+  margin-top: 50px;
+}
+#btn button {
+  margin-left: 5px;
+  margin-top: 15px;
+  width: 50%;
+}
+#item-list .btn-primary {
+  width: 50%;
+  margin-top: 5px;
+  align-items: center;
+  padding: 1px;
+}
+#item-list .btn-danger {
+  /* padding: 5px; */
+  margin-top: 5px;
+  width: 50%;
+  align-self: center;
+  padding: 1px;
+}
+#item-list .btn-success {
+  /* padding: 5px; */
+  width: 75%;
+  margin-top: 5px;
+  align-self: center;
+  padding: 1px;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.card {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  background-color: #eee;
+}
+img {
+  width: 150px;
+  height: 120px;
+  margin-top: 20px;
+}
+#item-list .row {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.content {
+  text-align: center;
+}
+#done-list li {
+  /* text-decoration: none; */
+  list-style: square;
+  font-size: large;
+  background: #eee;
+}
+@media (min-width: 750px) {
+  html,
+  body {
+    background-image: url("apple-code-coding-computer-574069.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .wrapper {
+    font-family: sans-serif;
+    overflow-x: hidden;
+  }
+
+  #area {
+    padding: 50px;
+  }
+  #area #todo-btn {
+    margin-top: 10px;
+    width: 80%;
+  }
+  #area li {
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+    background: #eee;
+  }
+  #area ul {
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+  }
+  #item-list {
+    margin-top: 50px;
+  }
+  #btn button {
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 50%;
+  }
+  #item-list .btn-primary {
+    padding: 10px;
+    margin-top: 5px;
+  }
+  #item-list .btn-danger {
+    padding: 10px;
+    margin-top: 5px;
+  }
+  #item-list .btn-success {
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  .row {
+    margin-top: 10px;
+  }
+  .card {
+    padding: 50px 75px 50px 50px;
+    background: #eee;
+  }
+  img {
+    width: 150px;
+    height: 120px;
+    margin-top: 20px;
+  }
+  .content {
+    text-align: center;
+  }
+  #item-list .row {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #done-list li {
+    /* text-decoration: none; */
+    list-style: none;
+    font-size: large;
+    background: #eee;
+  }
+}
